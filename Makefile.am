@@ -19,7 +19,6 @@
 #  NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
 #  CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
-FONT_DIR = misc
 FONT_FILES = arabic24
 
 BDF_FILES = $(FONT_FILES:%=%.bdf)
@@ -31,7 +30,7 @@ SUFFIXES = .bdf .pcf.gz
 	@rm -f $@
 	$(BDFTOPCF) -t $^ | gzip > $@
 
-fontdir = $(libdir)/X11/fonts/$(FONT_DIR)
+fontdir = @FONTDIR@
 font_DATA = $(PCF_FILES)
 CLEANFILES = $(font_DATA)
 
