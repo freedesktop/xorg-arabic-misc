@@ -1,0 +1,10 @@
+Makefile
+Makefile.in
+aclocal.m4
+arabic24.pcf.gz
+autom4te.cache
+config.log
+config.status
+configure
+install-sh
+missing
