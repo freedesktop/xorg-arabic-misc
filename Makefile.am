@@ -34,7 +34,7 @@ fontdir = @FONTDIR@
 font_DATA = $(PCF_FILES)
 CLEANFILES = $(font_DATA)
 
-EXTRA_DIST = $(BDF_FILES) autogen.sh README uniarab.txt
+EXTRA_DIST = $(BDF_FILES) autogen.sh uniarab.txt
 
 install-data-hook:
 	@rm -f $(DESTDIR)$(fontdir)/fonts.scale
