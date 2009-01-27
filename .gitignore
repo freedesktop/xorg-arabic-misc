@@ -9,3 +9,6 @@ configure
 install-sh
 missing
 *~
+font-arabic-misc-*.tar.*
+ChangeLog
+tags
