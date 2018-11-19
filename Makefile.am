@@ -34,7 +34,7 @@ fontdir = @FONTDIR@
 font_DATA = $(PCF_FILES)
 CLEANFILES = $(font_DATA)
 
-EXTRA_DIST = $(BDF_FILES) uniarab.txt
+EXTRA_DIST = $(BDF_FILES) uniarab.txt README.md
 
 MAINTAINERCLEANFILES = ChangeLog INSTALL
 
